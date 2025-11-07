@@ -1,1 +1,80 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <title>Nicole-formulario</title>
+    <link>
+    <style>
+        body{
+	font-family: Arial, sans-serif;
+	background-color: #dbb79e;
+	padding: 20px;
+}
 
+.caixa-Formulario{
+	width: 400px;
+	margin: 0 auto;
+	
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	padding: 25px;
+	
+}
+
+h1{
+	text-align: center;
+	color: #0b4f0e;
+}
+
+p{
+	text-align: center;
+	color: #4c704e;
+}
+	
+	label,
+	input,
+	textarea,
+	button{
+	       display: block;
+}
+label{
+	  margin-top: 15px;
+	  margin-bottom: 5px;
+	  fron-weight: bold;
+}
+input,
+textarea{
+         padding: 8px;
+}
+button{
+       margin-top: 20px;
+	   padding: 10px;
+}
+
+    </style>
+    </head>
+
+     <body>
+
+     <div class="caixa-Formulario">
+
+        <h1>formulário</h1>
+		<p> deixe aqui a sua dúvida</p>
+		
+		<form>
+		<label for="nome-usuario"> 1.nome:</label>
+		<input type="text" id="nome-usuario" placeholder="digite aqui se nome...">
+		
+		<label for="e-mail"> 2.e-mail:</label>
+		<input type="text" id="e-mail" placeholder="digite aqui seu e-mail">
+		
+		<label FOR="msg-usuario"> 3. mensagem:</label>
+		<textarea id="msg-usuario"></textarea>
+		
+		<button type="submit">enviar</button>
+		
+		</form>
+		      </div>
+     </body>
+ </html>
+
+    
